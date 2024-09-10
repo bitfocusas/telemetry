@@ -1,0 +1,16 @@
+{
+  "elgatoHardware": [
+    [
+      "aaa",
+      false
+    ],
+    [
+      "bbb",
+      false
+    ],
+    [
+      "ccc",
+      true
+    ]
+  ]
+}
