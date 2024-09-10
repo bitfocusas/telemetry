@@ -1,6 +1,7 @@
 import { EventEmitter } from 'node:events'
 import Axios from 'axios'
 import { type SomeTelemetryEvent, type TelemetryEvent, type ElgatoHardwareItem, TELEMETRY_EVENTS } from './types'
+export { TELEMETRY_EVENTS, SomeTelemetryEvent } from './types'
 
 /*
  * Bitfocus Telemetry Module

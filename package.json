@@ -1,6 +1,6 @@
 {
 	"name": "@bitfocusas/telemetry",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Telemetry module for Bitfocus AS",
 	"module": "dist/src/index.js",
 	"main": "dist/src/index.js",

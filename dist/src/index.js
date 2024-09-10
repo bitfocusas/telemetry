@@ -3,11 +3,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.BitfocusTelemetry = void 0;
+exports.BitfocusTelemetry = exports.TELEMETRY_EVENTS = void 0;
 exports.sum = sum;
 const node_events_1 = require("node:events");
 const axios_1 = __importDefault(require("axios"));
 const types_1 = require("./types");
+var types_2 = require("./types");
+Object.defineProperty(exports, "TELEMETRY_EVENTS", { enumerable: true, get: function () { return types_2.TELEMETRY_EVENTS; } });
 /*
  * Bitfocus Telemetry Module
  *

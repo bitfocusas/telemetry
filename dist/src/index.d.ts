@@ -1,5 +1,6 @@
 import { EventEmitter } from 'node:events';
 import { type ElgatoHardwareItem } from './types';
+export { TELEMETRY_EVENTS, SomeTelemetryEvent } from './types';
 export declare class BitfocusTelemetry extends EventEmitter {
     private elgatoHardwareList;
     private bitfocusProduct;
